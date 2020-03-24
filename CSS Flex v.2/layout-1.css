@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+div{
+  border: 3px dashed black;
+  max-width: 45em;
+  min-height: 40em;
+  display: flex;
+  
+}
+
+nav{
+  background-color: lightgray;
+  padding: 1em;
+  flex-grow: 1;
+  flex-basis: 0;
+
+}
+
+main{
+  padding: 1em;
+  flex-grow: 3;
+  flex-basis: 0;
+  
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.first{
+  order: -1;
+}
+
+.copyright{
+  background-color: lightgray;
+  padding: .8em;
+  margin-top: auto;
+}
+
+aside{
+  background-color: lightgray;
+  padding: 1em;
+  flex-grow: 1;
+  flex-basis: 0;
+
+}

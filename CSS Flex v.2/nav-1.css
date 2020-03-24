@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin: 0 ;
+}
+
+
+.nav{
+  
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30em;
+  padding: 0;
+  margin: 30em auto;
+ 
+  
+}
+
+.container{
+  
+  padding: 0;
+  display: flex;
+  margin: 0;
+  
+}
+
+
+.item{
+  list-style: none;
+  border-right: 1px solid red;
+  padding: 1em;
+  margin:.25em;
+
+}
+
+a{
+  color: red;
+  text-align: center;
+}
+
+.item:nth-child(4n){
+  border: none;
+}
+
+

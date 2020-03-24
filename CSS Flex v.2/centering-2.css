@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeee;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+}
+
+div{
+  border: 3px dotted black;
+  max-width: 50em;
+  height: 50em;
+  margin: 300px auto;
+  display: flex;
+  
+
+}
+
+article{
+  border: 5px solid pink;
+  padding: 6em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+  
+}
+
+.contain-2{
+  align-self: center;
+
+}
+
+.contain-3{
+  align-self: flex-end;
+}
+
+h1{
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+p{
+  margin: 0;
+}
+
